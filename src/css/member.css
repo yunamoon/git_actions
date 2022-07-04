@@ -1,0 +1,86 @@
+/* header , footer, layout 관련 css는 app.cs -- */
+/* member page css -------------------------------- */
+
+.back-img { 
+    padding-top: 10vh;
+    height: 25vh;
+    background: url('../img/contents/member-back.svg') center center / cover no-repeat;
+    background-color: #061e337e;
+    background-blend-mode: multiply;
+}
+.member-container {
+    padding-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.member-container h5 {
+    margin-bottom: 0px;
+}
+
+.member-container h4 {
+    margin: 10px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.card-list {
+    margin-top: 50px;
+    margin-bottom: 200px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 8px;
+    width: 250px;
+    height: 350px;
+    border-radius: 25px;
+    background-color: #F9F9F9;
+}
+.card-label {
+    font-weight: 700;
+    font-size: 23px;
+    color: var(--main-color);
+}
+
+.en .card-label {
+    font-weight: 500;
+    font-size: 22px;
+}
+.en .label {
+    font-weight: 500;
+    font-size: 25px;
+}
+.card img {
+    margin-bottom: 20px;
+}
+
+.card h4 {
+    font-weight: 400;
+    margin: 3px;
+}
+
+.card p {
+    margin: 2px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+@media screen and (max-width:995px) {
+    .card-list  {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+}

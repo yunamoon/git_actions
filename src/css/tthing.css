@@ -1,0 +1,1065 @@
+/* header , footer, layout 관련 css는 app.cs -- */
+/* tthing page css , 1~7 section -------------------------------- */
+
+ul {
+    padding-left:28px;
+    white-space: nowrap;
+    }
+li {
+    margin: 0;
+    white-space: nowrap;
+    text-align: left;
+}
+
+li::marker {
+    font-size: 40px;
+    color: #8DC63F;
+}
+
+
+.logo-text {
+    font-size: 32px;
+    font-weight: 400;
+    padding: 10px;
+    margin-bottom: -20px;
+    color: var(--logo-color);
+}
+
+.text-point {
+    content: '';
+    display: inline-block;
+    height: 20px;
+    border-radius: 20px;
+    background-color: var(--pointer);
+}
+
+/* 1. smartTthing intro css --------------------------------------- */
+.smart-tthing-intro {
+    background:url('../img/contents/smartthing-back.svg') center center / cover no-repeat;
+    background-color: #061e33a1;
+    background-blend-mode: multiply;
+}
+
+.smart-tthing-intro img {
+    width: 450px;
+    margin-bottom: 20px;
+}
+
+.smart-tthing-under {
+ margin-top: 70px;
+ margin-left: 40px;
+
+ font-weight: 400;
+ 
+ line-height: 30px;
+ letter-spacing:1px;
+ color: var(--logo-color);
+}
+
+/* 2. smart tthing detail section ----------------------------------------------  */
+.smart-Thing {
+height: 350px;
+}
+
+.smart-tthing-contnets {
+padding-left: 50px;
+text-align: left;
+}
+
+/* 첫번째 이미지와 문구 */
+.tthing_merit_1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.contnets-text {
+font-size: 28px;
+line-height: 45px;
+font-weight:400;
+}
+
+
+.smart-tthing-logo {
+    width:750px;
+}
+
+.smart-tting-bubble {
+/* opacity: 0; */
+width: 100vw;
+padding-top: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.smart-tting-bubble li {
+    list-style: none;
+    margin: 5px 9px;
+}
+.smart-tting-bubble li h4 {
+padding: 7px 15px;
+border-radius: 20px;
+background-color: #ffbb0080;
+}
+
+
+/* 3. smartfarm old-new model section ----------------------------------------------  */
+.old-model {
+    width:1100px;
+}
+
+
+
+/* 5. smartfarm old-new model section ----------------------------------------------  */
+.model-contents:nth-child(2) {
+    padding-top: 50px;
+}
+
+.model-contents img {
+    width: 1100px;
+}
+
+.model-contents p {
+    margin-bottom: 10px;
+    font-size: 23px;
+
+}
+
+.en-model p{
+    padding-bottom: 10px;
+}
+
+.point-text {
+    font-size: 25px;
+    font-weight: 400;
+    padding: 8px 40px;
+    border-radius: 25px;
+    background-color: #ffbb0080;
+}
+
+/* 6. smart-tting-merit section css  -------------------------- */
+.tthing-arrow{
+background-color: #F5F6F9;
+}
+
+.list_wrap {
+    display: flex;
+    justify-content: center;
+
+}
+.list_wrap ul{
+    margin: 0;
+    padding: 0;
+}
+
+.style_none {
+ height: 350px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ list-style: none;
+}
+.style_none .tthing_mini {
+width: 280px;
+}
+
+.style_none .icon {
+    width: 150px;
+}
+.style_none .arrow {
+    width: 60px;
+}
+/* 7. tthing_data_pipe_line section css  -------------------------- */
+.pipe-line {
+background-color: #061E33;
+}
+.pipe-line-logo{
+ width: 900px;
+ padding-bottom: 20px;
+}
+.data-pipe-img {
+    width: 900px;
+}
+
+/* 8. tthing monitoring system section css  -------------------------- */
+.monitoring_logo{
+    width: 1000px;
+}
+.comment {
+    width: 1000px;
+    text-align: center;
+    color: #4077A7;
+    font-family: 500;
+    font-size: 28px;
+   padding: 15px 0px;
+   padding-bottom: 80px;
+}
+.comment_e {
+    text-align: center;
+    color: #4077A7;
+   padding: 15px 0px;
+   padding-bottom: 80px;
+}
+.comment_e strong {
+    font-weight: 400;
+}
+.tthing_monitoring_system_icon_wrap {
+    width: 1000px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tthing_monitoring_system_contents {
+    width: 100vw;
+    height: 350px;
+}
+
+.tthing_monitoring_system_contents img {
+    width: 100%;
+    height: 130px;
+}
+.tthing_monitoring_system_contents h3 {
+    width: 100%;
+    height: 100px;
+    font-size: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tthing_monitoring_system_contents p {
+    width: 100%;
+    height:40px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.strong {
+    font-weight: 400;
+}
+
+
+/* 9. smart tthing measurement info section ---------------------------------------------- */
+.measurement-info{
+    color: #555555;
+    background-color: #DCEFFF;
+    }
+    
+    .measurement-info h3 {
+        color: #061E33;
+    text-align: left;
+    }
+    .table_comment {
+        text-align: left;
+        color: #4077A7;
+        font-family: 500;
+        font-size: 20px;
+        margin: 10px 0;
+    }
+    .tthing-table {
+        border-collapse:collapse;
+    }
+    .table-title { 
+        font-size: 20px;
+    }
+    .table-title strong {
+        font-weight: 600;
+    }
+    .measurement-info table{
+        border-top: solid 3px #4883B2;
+        border-bottom: solid 3px #4883B2;
+        width:75vw;
+        height: 400px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .measurement-info table thead tr td {
+        background-color: #B2CDE3;
+    }
+    .measurement-info table td {
+        background-color: #D0E9FF;
+        padding: 15px;
+        border: solid 1.5px #d7e0e9;
+    }
+
+    .none {
+        border: none;
+    }
+
+
+/* Reactive css ================================================== */
+/* Desktop 13 --------------------------------------------- */
+@media screen and (max-width:1500px) {
+.smart-tthing-intro img {
+width: 420px;
+margin-bottom: 20px;
+}
+
+/* 2. smart tthing detail section ----------------------------------------------  */
+.smart-Thing {
+    height: 330px;
+    }
+    
+    /* 첫번째 이미지와 문구 */
+.smart-tthing-logo {
+    width:720px;
+}
+    
+    .contnets-text {
+    font-size: 25px;
+    line-height: 45px;
+    font-weight:400;
+}
+    
+
+
+/* 4 ---------------------------------------------- */
+    .old-model-wrap h2 {
+        margin-top: -50px;
+    }
+    .old-model {
+            padding: 50px;
+            width:1000px;
+    }
+
+    /* 5. smartfarm old-new model section ----------------------------------------------  */
+
+        .model-contents{ 
+            margin: 15px;
+        }
+        .model-contents img {
+            width: 1100px;
+        }
+        
+        .model-contents p {
+            font-size: 23px;
+        }
+        
+        .point-text {
+            font-size: 25px;
+            font-weight: 400;
+            padding: 8px 40px;
+            border-radius: 25px;
+            background-color: #ffbb0080;
+        }
+/* 5. smartfarm old-new model section ----------------------------------------------  */
+    .model-contents{ 
+        margin: 10px;
+    }
+    .model-contents img {
+        width: 1000px;
+       padding-bottom: 22px;
+    }
+    
+    .model-contents p {
+        font-size: 21px;
+        padding: 8px;
+    }
+    
+    .point-text {
+        font-size: 23px;
+        font-weight: 400;
+        padding: 8px 30px;
+        border-radius: 25px;
+        background-color: #ffbb0080;
+    }
+
+/* 6. smart-tting-merit section css  -------------------------- */
+    .smart-tthing-merit h4 {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 35px;
+    }
+
+}
+  
+@media screen and (max-width:1200px) {
+/* 2. smart tthing detail section ----------------------------------------------  */
+.smart-Thing {
+    height: 300px;
+    }
+    
+    .smart-tthing-contnets {
+    padding-left: 45px;
+    text-align: left;
+    }
+    
+    /* 첫번째 이미지와 문구 */
+    .smart-tthing-logo {
+    width:700px;
+    }
+    
+    .contnets-text {
+    font-size: 23px;
+    line-height: 40px;
+    font-weight:400;
+    }
+    
+    .contnets-text img {
+    width: 18px;
+    padding: 0 10px;
+    }
+
+ /* 3 ---------------------------------------------- */    
+    .smart-tting-bubble {
+        padding-top: 30px;
+        }
+        
+        .smart-tting-bubble li {
+            margin: 2px 5px;
+        }
+        .smart-tting-bubble li h4 {
+        padding: 7px 10px;
+        font-size: 25px;
+        border-radius: 20px;
+        }
+        
+        
+ /* 4 ---------------------------------------------- */
+ .old-model-wrap h2 {
+    margin-top: -50px;
+    }
+    .old-model {
+        padding: 50px;
+        width:950px;
+    }
+
+    /* 6. smart-tting-merit section css  -------------------------- */
+    .smart-tthing-merit h4 {
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 35px;
+    }
+
+
+}
+  
+/* Tablet --------------------------------------------- */
+@media screen and (max-width:1024px) {
+.smart-tthing-intro img {
+        width: 400px;
+        margin-bottom: 20px;
+}
+
+/* 2. smart tthing detail section ----------------------------------------------  */
+.smart-Thing {
+    height: 280px;
+    }
+    
+    .smart-tthing-contnets {
+    padding-left: 35px;
+    text-align: left;
+    }
+    
+    /* 첫번째 이미지와 문구 */
+    .smart-tthing-logo {
+    width:650px;
+    }
+    
+    .contnets-text {
+    font-size: 21px;
+    line-height: 33px;
+    font-weight:400;
+    }
+    
+    .contnets-text img {
+    width: 17px;
+    padding: 0 10px;
+    }
+    
+    /* 3. smart-tting-bubble section ---------------------------------------------- */
+    .smart-tting-bubble {
+    padding: 10px 0;
+    }
+    
+    .smart-tting-bubble h4 {
+    margin: 0px 5px;
+    padding: 3px 3px;
+    font-size: 30px;
+    border-radius: 20px;
+    }
+    
+/* 6. smart-tting-merit section css  -------------------------- */
+.style_none {
+    height: 250px;
+   }
+   .style_none .tthing_mini {
+   width: 200px;
+   }
+   
+   .style_none .icon {
+       width: 120px;
+   }
+   .style_none .arrow {
+       width: 50px;
+   }
+
+   .list_wrap h5 {
+       font-size: 20px;
+   }
+/* 7. tthing_data_pipe_line section css  -------------------------- */
+
+    .pipe-line-logo{
+     width: 800px;
+    }
+    .data-pipe-img {
+        width: 800px;
+    }
+    
+/* 8. tthing monitoring system section css  -------------------------- */
+.monitoring_logo{
+    width: 750px;
+}
+.comment {
+    width: 750px;
+    font-family: 500;
+    font-size: 25px;
+   padding: 10px 0px;
+}
+
+.tthing_monitoring_system_icon_wrap {
+    width: 750px;
+}
+
+.tthing_monitoring_system_contents {
+    width: 100vw;
+    height: 350px;
+}
+
+.tthing_monitoring_system_contents img {
+    width: 100%;
+    height: 150px;
+}
+.tthing_monitoring_system_contents h3 {
+    width: 100%;
+    height: 100px;
+    font-size: 30px;
+}
+
+.tthing_monitoring_system_contents p {
+    width: 100%;
+    height:80px;
+    font-size: 20px;
+}
+}
+  
+@media screen and (max-width:860px) {
+        
+      /* 2. smart tthing detail section ----------------------------------------------  */
+.smart-Thing {
+    height: 250px;
+    }
+    
+    .smart-tthing-contnets {
+    padding-left: 30px;
+    text-align: left;
+    }
+    
+    /* 첫번째 이미지와 문구 */
+    .smart-tthing-logo {
+    width:500px;
+    }
+    
+    .contnets-text {
+    font-size: 15px;
+    line-height: 33px;
+    font-weight:600;
+    }
+    
+    .contnets-text img {
+    width: 13px;
+    padding: 0 10px;
+    }
+    
+   /* 3 ---------------------------------------------- */    
+   .smart-tting-bubble {
+    padding-top: 30px;
+    }
+    
+    .smart-tting-bubble li {
+        margin: 2px 0px;
+    }
+    .smart-tting-bubble li h4 {
+    padding: 7px 10px;
+    font-size: 18px;
+    border-radius: 20px;
+    }
+
+    /* 7. tthing_data_pipe_line section css  -------------------------- */
+
+    .pipe-line-logo{
+        width: 700px;
+       }
+       .data-pipe-img {
+           width: 700px;
+       }
+       
+    
+
+/* 8. smart tthing monitoring system section ----------------------------------------- */
+.comment {
+    font-size: 21px;
+}
+} 
+  
+@media screen and (max-width:768px) {
+    .smart-tthing-intro img {
+        width: 400px;
+        margin-bottom: 20px;
+}
+
+.smart-tthing-logo {
+    width:300px;
+    }
+        
+      /* 2. smart tthing detail section ----------------------------------------------  */
+      .tthing_merit_1 {
+          flex-direction: column;
+      }
+      .smart-Thing {
+        height: 300px;
+        }
+        
+        .smart-tthing-contnets {
+        padding-left: 0px;
+        padding-top: 30px;
+        text-align: left;
+        }
+        
+        /* 첫번째 이미지와 문구 */
+        .smart-tthing-logo {
+        width:500px;
+        }
+        
+        .contnets-text {
+        font-size: 18px;
+        line-height:35px;
+        font-weight:600;
+        }
+        
+        .contnets-text img {
+        width: 13px;
+        padding: 0 10px;
+        }
+/* 6. smart-tting-merit section css  -------------------------- */
+.style_none {
+    height: 200px;
+   }
+   .style_none .tthing_mini {
+   width: 180px;
+   }
+   
+   .style_none .icon {
+       width: 100px;
+   }
+   .style_none .arrow {
+       width: 50px;
+   }
+   li::marker {
+    font-size: 20px;
+    color: #8DC63F;
+}
+
+   .list_wrap h5 {
+       font-size: 15px;
+   }
+    
+/* 7. tthing_data_pipe_line section css  -------------------------- */
+
+.pipe-line-logo{
+    width: 600px;
+   }
+   .data-pipe-img {
+       width: 600px;
+   }
+   
+     /* 8. tthing monitoring system section css  -------------------------- */
+.monitoring_logo{
+    width: 700px;
+}
+.comment {
+    width: 700px;
+    font-family: 500;
+    font-size: 25px;
+   padding: 10px 0px;
+}
+
+.tthing_monitoring_system_icon_wrap {
+    width: 700px;
+}
+
+.tthing_monitoring_system_contents h3 {
+    width: 100%;
+    height: 100px;
+    font-size: 28px;
+}
+
+.tthing_monitoring_system_contents p {
+    width: 100%;
+    height:80px;
+    font-size: 18px;
+}
+
+
+}
+  
+@media screen and (max-width:640px) {
+
+    /* 3 ---------------------------------------------- */    
+    
+    .smart-tting-bubble li {
+        margin: 0px;
+        flex-wrap: nowrap;
+    }
+    .smart-tting-bubble li h4 {
+    font-size: 14px;
+    margin: 0;
+    border-radius: 0;
+    border-right: solid 1px gray;
+    }
+
+
+/* 7. tthing_data_pipe_line section css  -------------------------- */
+
+.pipe-line-logo{
+    width: 500px;
+   }
+   .data-pipe-img {
+       width: 500px;
+   }
+
+/* 8. tthing monitoring system section css  -------------------------- */
+.monitoring_logo{
+    width: 500px;
+}
+.comment {
+    width: 500px;
+    font-family: 500;
+    font-size: 20px;
+   padding: 10px 0px;
+}
+
+.tthing_monitoring_system_icon_wrap {
+    width: 500px;
+}
+
+.tthing_monitoring_system_contents {
+    width: 100vw;
+    height: 350px;
+}
+
+.tthing_monitoring_system_contents img {
+    width: 100%;
+    height: 150px;
+}
+.tthing_monitoring_system_contents h3 {
+    width: 100%;
+    height: 100px;
+    font-size: 30px;
+}
+
+.tthing_monitoring_system_contents p {
+    width: 100%;
+    height:80px;
+    font-size: 20px;
+}
+/* 9. smart-tting-measurement-info section ---------------------------------------------- */
+.measurement-info {
+    margin-left: -35px;
+}
+.measurement-info table{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.table-title{
+    font-size: 18px;
+}
+
+.measurement-info table td {
+    padding: 13px;
+}
+
+}
+  
+/* Mobile --------------------------------------------- */
+@media screen and (max-width:576px) {
+/* 1 ---------------------------------------------- */
+
+.smart-tthing-intro img {
+width: 360px;
+margin-bottom: 15px;
+}
+
+/* 6. smart-tting-merit section css  -------------------------- */
+.tthing-arrow .tthing_icon_wrap {
+    width: 550px;
+}
+
+.tthing_icon_wrap .icon {
+  width: 120px;
+}
+
+.tthing_icon_text {
+        width: 550px;
+        display: flex;
+        flex-direction: column;
+}
+    
+.text-icon {
+        width: 15px;
+}
+
+.tthing-item {
+        padding: 0 5px;
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+
+        align-items: baseline;
+}
+.tthing-item:nth-child(2){
+    width: 700px;
+}
+
+.text-icon-wrap {
+        background-color: rosybrown;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+}
+.tthing-item h4 {
+        text-align: left;
+        font-size: 20px;
+}
+.tthing_logo_5 {
+        width: 250px;
+}
+
+/* 6. smart-tting-merit section css  -------------------------- */
+.style_none {
+    height: 200px;
+   }
+   .style_none .tthing_mini {
+   width: 150px;
+   }
+   
+   .style_none .icon {
+       width: 90px;
+   }
+   .style_none .arrow {
+       width: 30px;
+   }
+
+   .list_wrap h5 {
+       font-size: 12px;
+   }
+
+/* 7. tthing_data_pipe_line section css  -------------------------- */
+
+.pipe-line-logo{
+    width: 450px;
+   }
+   .data-pipe-img {
+    width: 450px;
+   }
+   
+
+/* 9. smart-tting-measurement-info section ---------------------------------------------- */
+.measurement-info {
+    margin-left: -60px;
+}
+.measurement-info table{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.table-title{
+    font-size: 15px;
+}
+
+.measurement-info table td {
+    padding: 9px;
+}
+}
+  
+@media screen and (max-width:540px) {
+
+
+ /* 2. smart tthing detail section ----------------------------------------------  */
+
+.smart-Thing {
+  height: 280px;
+  }
+  /* 첫번째 이미지와 문구 */
+  .smart-tthing-logo {
+  width:500px;
+  padding: 0 10px;
+  }
+
+/* 6. smart-tting-merit section css  -------------------------- */
+.tthing-arrow .tthing_icon_wrap {
+    width: 450px;
+    }
+.tthing_icon_wrap .icon {
+  width: 120px;
+}
+.tthing_icon_wrap .arrow {
+    width: 50px;
+  }
+    .tthing_icon_text {
+        background-color: rosybrown;
+        width: 450px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /* 7. tthing_data_pipe_line section css  -------------------------- */
+
+.pipe-line-logo{
+    width: 400px;
+   }
+   .data-pipe-img {
+    width: 400px;
+   }
+/* 8. tthing monitoring system section css  -------------------------- */
+.monitoring_logo{
+    width: 450px;
+}
+.comment {
+    width: 450px;
+    font-family: 500;
+    font-size: 18px;
+   padding: 10px 0px;
+}
+
+.tthing_monitoring_system_icon_wrap {
+    width: 450px;
+}
+
+.tthing_monitoring_system_contents {
+    width: 100vw;
+    height: 350px;
+}
+
+.tthing_monitoring_system_contents img {
+    width: 100%;
+    height: 130px;
+}
+.tthing_monitoring_system_contents h3 {
+    width: 100%;
+    height: 100px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.tthing_monitoring_system_contents p {
+    width: 100%;
+    height:80px;
+    font-size: 18px;
+} 
+
+/* 9. smart-tting-measurement-info section ---------------------------------------------- */
+.measurement-info {
+    margin-left: -60px;
+}
+.measurement-info table{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.table-title{
+    font-size: 15px;
+}
+
+.measurement-info table td {
+    padding: 5px;
+}
+}
+  
+@media screen and (max-width:430px) {
+ /* 2. smart tthing detail section ----------------------------------------------  */
+.smart-Thing {
+  height: 300px;
+  }
+  
+  /* 첫번째 이미지와 문구 */
+  .smart-tthing-logo {
+  width:350px;
+  }
+  
+  .contnets-text {
+  font-size: 15px;
+  line-height:35px;
+  font-weight:600;
+  }
+  
+  .contnets-text img {
+  width: 13px;
+  padding: 0 10px;
+  }
+
+
+/* 4 ---------------------------------------------- */
+.old-model {
+    width:400px;
+}
+
+/* 6. smart-tting-merit section css  -------------------------- */
+.style_none {
+    height: 200px;
+   }
+   .style_none .tthing_mini {
+   width: 130px;
+   }
+   
+   .style_none .icon {
+       width: 80px;
+   }
+   .style_none .arrow {
+       width: 20px;
+   }
+   li::marker {
+    font-size: 20px;
+    color: #8DC63F;
+ }
+
+   .list_wrap h5 {
+    font-weight: 600;
+    font-size: 10px;
+   }
+
+    /* 7. tthing_data_pipe_line section css  -------------------------- */
+
+    .pipe-line-logo{
+        width: 380px;
+       }
+       .data-pipe-img {
+        width: 380px;
+       }
+
+       /* 8. tthing monitoring system section css  -------------------------- */
+.monitoring_logo{
+    width: 350px;
+}
+.comment {
+    width: 350px;
+    font-family: 500;
+    font-size: 13px;
+   padding: 10px 0px;
+}
+
+.tthing_monitoring_system_icon_wrap {
+    width: 350px;
+}
+
+
+.tthing_monitoring_system_contents p {
+    font-size: 15px;
+}
+
+}
