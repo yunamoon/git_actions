@@ -136,7 +136,6 @@ function Main() {
           {/* 1. 첫번째 spacefarm intro section --------------------- */}
           
           <div className="contents-wrap spacefarm-intro"> 
-          <h1>유나 test</h1>
           <h1 className={scroll==0 ? 'showText title': 'title' }><strong>기술</strong>로 자연의 
           <br className='new-line'/> <strong>나눔</strong>을 배우다</h1>
           <span className="green" style={scroll==0 ? {animation:'showText ease-in-out 0.5s forwards'} : null}> 
